@@ -16,6 +16,7 @@ jobs:
               run: |
                   import plaform
                   print(plaform.processor())
+              shell: python
 
     run-windows-command:
         runs-on: windows-latest
